@@ -1,0 +1,23 @@
+/seu-projeto-crud-transacoes/
+├── banco/
+│   └── transacoes.sql
+├── backend/
+│   ├── app/
+│   │   └── Http/
+│   │       └── Controllers/
+│   │           └── TransacaoController.php
+│   ├── database/
+│   │   └── migrations/
+│   │       └── criar_tabelas_transacoes.php
+│   ├── routes/
+│   │   └── api.php
+│   └── composer.json
+├── frontend/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── transacao/
+│   │   │   │   ├── transacao-form.component.ts
+│   │   │   │   ├── transacao-list.component.ts
+│   │   │   │   ├── transacao.service.ts
+│   ├── angular.json
+├── README.md
